@@ -1,2 +1,2 @@
-# Rubber-ducky-scripts-Flipper-zero-badusb
+# Bad USB scripts
 repository of all the Bad usb scripts i made
