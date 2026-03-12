@@ -1,5 +1,8 @@
 REM Title: Windowcloser (for flipper zero)
 REM Target: almost any PC
+REM Author: Carson: https://github.com/SchulCar2034-ui
+REM Description: Closes windows (like chrome or other apps)
+REM 
 ID 05ac:021e
 DELAY 5000
 
