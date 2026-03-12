@@ -1,0 +1,21 @@
+REM Title: Windowcloser
+
+REM Author: Carson: https://github.com/SchulCar2034-ui
+
+REM Description: Closes windows with customizable settings
+
+REM Target: Almost any PC operating system
+
+REM !!NOTE!!: The variable ($DELAY) below is modifiable to change how fast it closes windows (it is in Milliseconds) (a lower number is quicker)
+
+VAR $DELAY = 100
+
+REM !!NOTE!!: The value below (REPEAT ??) is modifiable too and changes how many windows it closes
+
+VAR $REPEAT = 15
+
+WHILE ( $REPEAT > 0 )
+ALT F4
+DELAY $DELAY
+$REPEAT = ( $REPEAT - 1 )
+END_WHILE
